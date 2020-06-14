@@ -1,0 +1,16 @@
+{
+    "name": "mihan/slim-hello-world",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mihael Stormrage",
+            "email": "mihan.msn@hotmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.5",
+        "slim/psr7": "^1.1",
+        "slim/php-view": "^2.2",
+        "greg0/lazer-database": "^1.2"
+    }
+}

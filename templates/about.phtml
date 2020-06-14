@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Number DB API</title>
+</head>
+
+<body>
+  <div style="margin: 5em;">
+    <button onclick="window.location.href = '/generate'">Generate!</button><br><br>
+    <label for="ID">Retrieve ID: </label>
+    <input type="number" id="numID">
+    <input type="submit" value="Retrieve!" onclick="retrieve()">
+  </div>
+  <script>
+    function retrieve() {
+      const id = document.getElementById("numID").value;
+      const href = `/retrieve/${id}`;
+      window.location.href = href;
+    }
+  </script>
+</body>
+
+</html>
