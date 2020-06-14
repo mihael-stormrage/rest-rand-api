@@ -33,4 +33,4 @@ API responses in JSON.
 
 You can also open `localhost:5555` in browser and use GUI.
 
-![](gui.jpg)
+![](GUI.jpg)
