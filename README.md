@@ -1,4 +1,4 @@
-# REST-rand-API
+# Random number REST
 REST API for random number generation and retrieveing results by ID.
 
 ## Install
